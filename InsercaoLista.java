@@ -17,6 +17,6 @@ public class InsercaoLista {
         lista.remove(4);
         lista.remove(6);
         System.out.println("Lista após a remoção "+lista);
-        // Após um índice ser removido os outros valores são movidos //
+        // Após um índice ser removido os outros valores são movidos, desconsiderar essa mudança resultará em erros no código //
     }
 }
